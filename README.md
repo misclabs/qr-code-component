@@ -13,6 +13,6 @@ This was an introductory project that was completed with vanilla HTML and CSS.
 ### Links
 
 - Solution URL: [https://github.com/misclabs/qr-code-component](https://github.com/misclabs/qr-code-component)
-- Live Site URL: [https://misclabs.com/qr-code-component/](https://misclabs.com/qr-code-component/)
+- Live Site URL: [https://misclabs.github.io/qr-code-component/](https://misclabs.github.io/qr-code-component/)
 
 
