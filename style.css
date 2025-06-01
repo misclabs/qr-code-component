@@ -118,6 +118,9 @@ p {
   bottom: 16px;
   left: 50%;
   transform: translate(-50%, 0);
+
+  /* use min-width to prevent attribution from word wrapping unnecessarily */
+  min-width: var(--card-width);
 }
 
 .attribution a {
