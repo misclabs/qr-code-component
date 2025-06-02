@@ -13,34 +13,48 @@
 
     <title>Frontend Mentor | QR code component</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- The preload link and style below are minimizing layout shift from using a webfont. -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400..700&display=swap"
-      rel="stylesheet"
+      as="font"
+      rel="preload"
+      href="./outfit_variable.woff2"
+      type="font/woff2"
     />
+    <style>
+      @font-face {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 400 700;
+        font-display: fallback;
+        src: url(./outfit_variable.woff2) format("woff2");
+      }
+      body {
+        font-family: "Outfit", sans-serif;
+      }
+    </style>
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="qr-card">
+    <main class="qr-card" role="main">
       <img
         src="./images/image-qr-code.png"
         alt="QR code with link to Frontend Mentor"
         width="288"
         height="288"
       />
-      <h2>Improve your front-end skills by building projects</h2>
+      <h1>Improve your front-end skills by building projects</h1>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
       </p>
-    </div>
+    </main>
 
-    <div class="attribution">
+    <footer class="attribution" role="contentinfo">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Jess</a>.
-    </div>
-</body>
+    </footer>
+  </body>
 </html>
