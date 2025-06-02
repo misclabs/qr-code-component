@@ -35,6 +35,14 @@
   --qr-image-corner-radius: 0.625rem; /* 10px; */
 }
 
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: fallback;
+  src: url(./outfit_variable.woff2) format("woff2");
+}
+
 /* Reset margins */
 * {
   margin: 0;
